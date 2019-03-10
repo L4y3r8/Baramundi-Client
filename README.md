@@ -3,7 +3,7 @@ Fun with local baramundi SOAP-API :-)
  
 inter-process communication between Baramundi Management Agent "bma.exe" and  Baramundi Traynotifier Service "BMSTrayNotifier.exe" use a unprotected SOAP-API
  
- the api calls were enumerated with:
+ API calls were enumerated with:
  
 --> capture local traffic
 
@@ -17,7 +17,7 @@ http://localhost:11001/traynotifierservice
 
 http://localhost:11000/clientagent
 
-In this way an attacker could sent notifications, arbritary conent to the "AboutDialog" or shutdown the service.
+In this way an attacker could sent notifications, arbritary conent to the "AboutDialog" or shutdown the service (unfortunately i didnt find a way to change relevant client configuration or execute a custom baram. job or something like that :-/ ...)
 
 
 $> rabin2 -z bMACore.dll:
