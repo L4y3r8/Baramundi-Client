@@ -102,23 +102,3 @@ function localpostrequest(url,soapmsg){
 		dataType: "xml"
 	});
 };
-
-function notify(){
-	alert("notify");
-};
-
-function logfile(){
-	alert("logfile");
-};
-function about(){
-	alert("about");
-};
-function disableinput(){
-	alert("disableinput");
-};
-function timeoutdialog(){
-	alert("timeoutdialog");
-};
-function guiaction(){
-	alert("ShowNotification");
-};
