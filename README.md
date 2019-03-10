@@ -17,7 +17,7 @@ http://localhost:11001/traynotifierservice
 
 http://localhost:11000/clientagent
 
-In this way an attacker could sent notifications, arbritary conent to the "AboutDialog" or shutdown the service (unfortunately i didnt find a way to change relevant client configuration or execute a custom baram. job or something like that :-/ ...)
+In this way an attacker could send notifications, arbritary conent to the "AboutDialog" or shutdown the service (unfortunately i didnt find a way to change relevant client configuration or execute a custom baram. job or something like that :-/ ...)
 
 
 $> rabin2 -z bMACore.dll:
