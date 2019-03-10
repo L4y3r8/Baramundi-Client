@@ -4,12 +4,17 @@ Fun with local baramundi soap api
 inter-process communication between Baramundi Management Agent "bma.exe" and  Baramundi Traynotifier Service "BMSTrayNotifier.exe" use a unprotected SOAP-API
  
  the api calls were enumerated with:
+ 
 --> capture local traffic
+
 --> rabin2 -z bMACore.dll
+
 --> memory dump
 
 An attacker could indirect communicate with baramundi agents through a website which makes a local post request to 
+
 http://localhost:11001/traynotifierservice
+
 http://localhost:11001/
 
 In this way an attacker could sent notifications, arbritary conent to the "AboutDialog" or shutdown the service.
