@@ -1,0 +1,74 @@
+<html>
+<title> Baramundi Traynotifier gent</title>
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/baram.css">
+<script src="/js/jquery-3.2.1.min.js"></script>
+<script src="/js/baram.js" type="text/javascript"></script>
+<body>
+<div class="headline-left">Hijacking baramundi&nbsp</div>
+<div class="headline-right">&nbspTray Notifier Service</div>
+<br><br>
+<div class="tablebox">
+<table class="table table-custom">
+  <thead class="text">
+    <tr>
+      <th class="table-custom" scope="col">#</th>
+      <th class="table-custom" scope="col">client component</th>
+      <th class="table-custom" scope="col">URL</th>
+      <th class="table-custom" scope="col">api function</th>
+    </tr>
+  </thead>
+  <tbody class="text">
+    <tr>
+      <th scope="row"><div class="box01">0</div></th>
+      <td><div class="box01">Tray Notifier Service<br><h4>(crash the service!)</h4> </div></td>
+      <td><div class="box01">http://localhost:11001/traynotifierservice</div></td>
+      <td><button type="button" class="btn btn-danger btn-custom" onclick="localpostrequest(notifierurl,AnimateIconDoS)">traynotifierservice:AnimateIcon</button></td>
+    </tr>
+    <tr>
+      <th scope="row"><div class="box01">1</div></th>
+      <td><div class="box01">Tray Notifier Service</div></td>
+      <td><div class="box01">http://localhost:11001/traynotifierservice</div></td>
+      <td><button type="button" class="btn btn-info btn-custom" onclick="localpostrequest(notifierurl,ShowNotification)">traynotifierservice:ShowNotification</button></td>
+    </tr>
+    <tr>
+      <th scope="row"><div class="box01">2</div></th>
+      <td><div class="box01">Tray Notifier Service</div></td>
+      <td><div class="box01">http://localhost:11001/traynotifierservice</div></td>
+      <td><button type="button" class="btn btn-info btn-custom" onclick="localpostrequest(notifierurl,ShowLogfileWindow)">traynotifierservice:ShowLogfileWindow</button></td>
+    </tr>
+    <tr>
+      <th scope="row"><div class="box01">3</div></th>
+      <td><div class="box01">Tray Notifier Service</div></td>
+      <td><div class="box01">http://localhost:11001/traynotifierservice</div></td>
+      <td><button type="button" class="btn btn-info btn-custom" onclick="localpostrequest(notifierurl,ShowAboutDialog)">traynotifierservice:ShowAboutDialog</button></td>
+    </tr>
+    <tr>
+      <th scope="row"><div class="box01">4</div></th>
+      <td><div class="box01">Tray Notifier Service</div></td>
+      <td><div class="box01">http://localhost:11001/traynotifierservice</div></td>
+      <td><button type="button" class="btn btn-info btn-custom" onclick="localpostrequest(notifierurl,ShowActionTimeoutDialog)">traynotifierservice:ShowActionTimeoutDialog</button></td>
+    </tr>
+    <tr>
+      <th scope="row"><div class="box01">5</div></th>
+      <td><div class="box01">Tray Notifier Service</div></td>
+      <td><div class="box01">http://localhost:11001/traynotifierservice</div></td>
+      <td><button type="button" class="btn btn-danger btn-custom" onclick="input()">traynotifierservice:DisableInput</button></td>
+    </tr>
+    <tr>
+      <th scope="row"><div class="box01">6</div></th>
+      <td><div class="box01">Tray Notifier Service</div></td>
+      <td><div class="box01">http://localhost:11001/traynotifierservice</div></td>
+      <td><button type="button" class="btn btn-info btn-custom" onclick="localpostrequest(notifierurl,ShutdownService)">traynotifierservice:Shutdown</button></td>
+    </tr>
+    <tr>
+      <th scope="row"><div class="box01">7</div></th>
+      <td><div class="box01">management agent</div></td>
+      <td><div class="box01">http://localhost:11000/clientagent</div></td>
+      <td><button type="button" class="btn btn-info btn-custom" onclick="localpostrequest(managementagenturl,GuiAction)">traynotifierclient:GuiAction</button></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</body>
+</html>
