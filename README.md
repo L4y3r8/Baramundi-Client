@@ -15,7 +15,7 @@ An attacker could indirect communicate with baramundi agents through a website w
 
 http://localhost:11001/traynotifierservice
 
-http://localhost:11001/
+http://localhost:11000/clientagent
 
 In this way an attacker could sent notifications, arbritary conent to the "AboutDialog" or shutdown the service.
 
