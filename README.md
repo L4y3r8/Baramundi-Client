@@ -1,7 +1,7 @@
 # Baramundi-Client
 Fun with local baramundi SOAP-API :-)
  
-inter-process communication between Baramundi Management Agent "bma.exe" and  Baramundi Traynotifier Service "BMSTrayNotifier.exe" use an unprotected SOAP-API
+inter-process communication between Baramundi Management Agent "bma.exe" and  Baramundi Traynotifier Service "BMSTrayNotifier.exe" uses an unprotected SOAP-API
  
  API calls were enumerated with:
  
