@@ -21,7 +21,7 @@ SOAPMsg='<?xml version="1.0" encoding="UTF-8"?> \
 <SOAP-ENV:Body><traynotifierservice:ShowAboutDialog> \
 <Caption>' + payload + '</Caption> \
 <TickerText>' +html.escape(html_msg) + '</TickerText> \
-<Hyperlink>http://shd-online.de/blubb.txt</Hyperlink> \
+<Hyperlink>http://custom.local/blubb.txt</Hyperlink> \
 ' + 10*('\
 <VersionInfos> \
 <m-Module>' + html.escape(html_msg) + '</m-Module> \
